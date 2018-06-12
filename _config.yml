@@ -1,7 +1,7 @@
 # Site settings
 title: The neophyte's logs
 description: 'The neophyte''s logs - A novice''s journey through programming'
-url:
+url: 'http://the-neophyte.github.io/the-neophyte'
 baseurl: "/the-neophyte"
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
