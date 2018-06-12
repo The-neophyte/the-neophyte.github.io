@@ -1,0 +1,43 @@
+# Site settings
+title: The neophyte's logs
+description: 'The neophyte''s logs - A novice''s journey through programming'
+url:
+baseurl: "/TNL"
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'The neophyte'
+  email: the.neophytes.logs@gmail.com
+  # twitter_username: Theneophyte
+  # facebook_username: The-neophyte
+  github_username:  The-neophyte
+  # linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
