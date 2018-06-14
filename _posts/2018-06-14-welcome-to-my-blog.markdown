@@ -3,6 +3,7 @@ title:  "Welcome to my blog!"
 date:   2018-06-14 16:24:23
 categories: [Personal]
 tags: [About]
+comments: true
 ---
 Hello, and welcome to my blog: `The neophyte's logs`. 
 
