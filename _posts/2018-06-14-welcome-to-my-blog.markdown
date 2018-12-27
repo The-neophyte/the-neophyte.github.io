@@ -5,7 +5,7 @@ categories: [Personal]
 tags: [About]
 comments: true
 ---
-Hello, and welcome to my blog: `The neophyte's logs`. 
+Hello and welcome to my blog: `The neophyte's logs`. 
 
 I am a neophyte in various things, including but not limited to:
 * Programming
